@@ -21,8 +21,8 @@ This repo is **frontend only** – contributors can improve the design, add new 
 1. Clone the repo
 
     ```bash
-    git clone https://github.com/GreatStackDev/QuickCart.git
-    cd QuickCart
+    git clone https://github.com/Rajdip03/Rajdip-KALPAVYA.git
+    cd Kalpavya
     ```
 
 2. Install dependencies
