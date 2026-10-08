@@ -13,8 +13,8 @@ const Footer = () => {
         </p>
       </div>
       <div className="flex items-center gap-3">
-        <a href="#">
-          <Image src={assets.facebook_icon} alt="facebook_icon" />
+        <a href="https://www.linkedin.com/in/rajdip-mondal-54a877296/" target="_blank" rel="noreferrer">
+          <Image src={assets.linkedin_icon} alt="linkedin_icon" />
         </a>
         <a href="#">
           <Image src={assets.twitter_icon} alt="twitter_icon" />
