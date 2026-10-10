@@ -22,7 +22,7 @@ const Banner = () => {
             y: [0, -30, 0],
           }}
           transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
-          className="absolute top-[-10%] left-[-5%] w-[40%] h-[60%] bg-orange-400/30 rounded-full blur-3xl"
+          className="absolute top-[-10%] left-[-5%] w-[40%] h-[60%] bg-yellow-400/30 rounded-full blur-3xl"
         />
         <motion.div
           animate={{
@@ -31,7 +31,7 @@ const Banner = () => {
             y: [0, 40, 0],
           }}
           transition={{ duration: 10, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-          className="absolute bottom-[-10%] right-[-5%] w-[45%] h-[65%] bg-blue-400/30 rounded-full blur-3xl"
+          className="absolute bottom-[-10%] right-[-5%] w-[45%] h-[65%] bg-yellow-400/30 rounded-full blur-3xl"
         />
       </div>
 
@@ -54,7 +54,7 @@ const Banner = () => {
         <p className="max-w-[343px] font-medium text-gray-800/80 drop-shadow-sm">
           From immersive sound to precise controls—everything you need to win
         </p>
-        <button className="group flex items-center justify-center gap-1 px-12 py-2.5 bg-orange-600 hover:bg-orange-500 transition-colors rounded text-white shadow-lg shadow-orange-600/30 mt-2">
+        <button className="group flex items-center justify-center gap-1 px-12 py-2.5 bg-yellow-600 hover:bg-yellow-500 transition-colors rounded text-white shadow-lg shadow-yellow-600/30 mt-2">
           Buy now
           <Image className="group-hover:translate-x-1 transition" src={assets.arrow_icon_white} alt="arrow_icon_white" />
         </button>

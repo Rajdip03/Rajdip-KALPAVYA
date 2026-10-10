@@ -28,12 +28,12 @@ const FeaturedProduct = () => {
     <div className="mt-14">
       <div className="flex flex-col items-center">
         <p className="text-3xl font-medium">Featured Products</p>
-        <div className="w-28 h-0.5 bg-orange-600 mt-2"></div>
+        <div className="w-28 h-0.5 bg-yellow-600 mt-2"></div>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-14 mt-12 md:px-14 px-4">
         {products.map(({ id, image, title, description }) => (
-          <div key={id} className="relative group overflow-hidden rounded-2xl hover:shadow-2xl hover:shadow-orange-500/20 hover:-translate-y-2 transition-all duration-500 cursor-pointer">
+          <div key={id} className="relative group overflow-hidden rounded-2xl hover:shadow-2xl hover:shadow-yellow-500/20 hover:-translate-y-2 transition-all duration-500 cursor-pointer">
             <Image
               src={image}
               alt={title}
@@ -51,7 +51,7 @@ const FeaturedProduct = () => {
                 {description}
               </p>
               <div className="pt-2 translate-y-10 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 delay-300">
-                <button className="flex items-center gap-1.5 bg-orange-600 hover:bg-orange-500 px-4 py-2 rounded transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-orange-500/50">
+                <button className="flex items-center gap-1.5 bg-yellow-600 hover:bg-yellow-500 px-4 py-2 rounded transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-yellow-500/50">
                   Buy now <Image className="h-3 w-3" src={assets.redirect_icon} alt="Redirect Icon" />
                 </button>
               </div>
