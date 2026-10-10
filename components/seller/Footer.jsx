@@ -16,11 +16,8 @@ const Footer = () => {
         <a href="https://www.linkedin.com/in/rajdip-mondal-54a877296/" target="_blank" rel="noreferrer">
           <Image src={assets.linkedin_icon} alt="linkedin_icon" />
         </a>
-        <a href="#">
-          <Image src={assets.twitter_icon} alt="twitter_icon" />
-        </a>
-        <a href="#">
-          <Image src={assets.instagram_icon} alt="instagram_icon" />
+        <a href="https://github.com/Rajdip03" target="_blank" rel="noreferrer">
+          <Image src={assets.github_icon} alt="github_icon" />
         </a>
       </div>
     </div>

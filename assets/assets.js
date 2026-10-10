@@ -6,7 +6,7 @@ import add_icon from "./add_icon.svg";
 import order_icon from "./order_icon.svg";
 import instagram_icon from "./instagram_icon.svg";
 import linkedin_icon from "./linkedin_icon.svg";
-import twitter_icon from "./twitter_icon.svg";
+import github_icon from "./github_icon.svg";
 import box_icon from "./box_icon.svg";
 import product_list_icon from "./product_list_icon.svg";
 import menu_icon from "./menu_icon.svg";
@@ -56,7 +56,7 @@ export const assets = {
   order_icon,
   instagram_icon,
   linkedin_icon,
-  twitter_icon,
+  github_icon,
   box_icon,
   product_list_icon,
   menu_icon,

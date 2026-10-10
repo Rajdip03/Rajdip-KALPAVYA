@@ -36,8 +36,9 @@ const Footer = () => {
         <div className="w-1/2 flex items-start justify-start md:justify-center">
           <div>
             <h2 className="font-medium text-gray-900 mb-5">Get in touch</h2>
-            <div className="text-sm space-y-2 ">
-              <a className="hover:text-green-600 cursor-pointer" href="https://www.linkedin.com/in/rajdip-mondal-54a877296/"><p>LinkedIn @ Rajdip Mondal</p></a>
+            <div className="text-sm space-y-2 flex flex-row items-center gap-4">
+              <a className="hover:text-green-600 cursor-pointer" href="https://www.linkedin.com/in/rajdip-mondal-54a877296/"><Image src={assets.linkedin_icon} alt="linkedin_icon" /></a>
+              <a href="https://github.com/Rajdip03" target="_blank" rel="noreferrer"><Image src={assets.github_icon} alt="github_icon" /></a>
             </div>
           </div>
         </div>
