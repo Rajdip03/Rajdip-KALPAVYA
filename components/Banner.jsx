@@ -49,10 +49,10 @@ const Banner = () => {
 
       <div className="flex flex-col items-center justify-center text-center space-y-3 px-4 md:px-0 z-10">
         <h2 className="text-2xl md:text-3xl font-semibold max-w-[290px] text-gray-900 drop-shadow-sm">
-          Level Up Your Gaming Experience
+            Elevate Your Gaming Experience        
         </h2>
         <p className="max-w-[343px] font-medium text-gray-800/80 drop-shadow-sm">
-          From immersive sound to precise controls—everything you need to win
+          Immersive sound, precision control, and gear built to win.        
         </p>
         <button className="group flex items-center justify-center gap-1 px-12 py-2.5 bg-yellow-600 hover:bg-yellow-500 transition-colors rounded text-white shadow-lg shadow-yellow-600/30 mt-2">
           Buy now
